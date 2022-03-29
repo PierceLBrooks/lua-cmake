@@ -48,5 +48,5 @@ add_library(lua::lib ALIAS lua)
 add_library(lua::header ALIAS lua-header)
 
 install(FILES ${publicHeaderFiles} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/lua)
-install(TARGETS lua::lib)
+install(TARGETS lua)
 
